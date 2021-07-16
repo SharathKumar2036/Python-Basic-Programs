@@ -3,7 +3,7 @@ people=[]
 people1=[]
 x=0
 while(x<1):
-    person =raw_input("Enter Your last name:")
+    person: object =raw_input("Enter Your last name:")
     person1 =raw_input("Enter Your first name:")
     people.append(person+person1)
     x += 1
